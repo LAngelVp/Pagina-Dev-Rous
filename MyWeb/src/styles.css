@@ -24,17 +24,29 @@
 .imagen_logo{
     display: block;
     width: 75%;
-    
+}
+.espacio_superior{
+    padding-top: 3rem;
 }
 .fondo_contacto{
     padding-top: 4rem;
     padding-bottom: 2rem;
     background-image: linear-gradient(to top, #101925 0%, #133e5f73 100%);
 }
+.fondoLogo{
+    display: block;
+    padding: 3%;
+    background-color: rgba(255, 255, 255, 0.363);
+    border-radius: 2rem;
+    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.521);
+}
 @media (max-width:768px) {
     .imagen_logo{
         display: block;
         width: 100% ;
         margin-top: 2rem;
+    }
+    .fondoLogo{
+        width: 75%;
     }
 }

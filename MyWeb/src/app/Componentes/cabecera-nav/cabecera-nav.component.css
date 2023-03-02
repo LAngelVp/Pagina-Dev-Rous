@@ -7,4 +7,5 @@
     z-index: 9;
     position: fixed;
     width: 100%;
+    background-image: linear-gradient(to right, #4facfe63 0%, #0059fe83 100%);
 }

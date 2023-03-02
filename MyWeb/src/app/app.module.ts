@@ -12,6 +12,8 @@ import { PiePaginaComponent } from './Componentes/pie-pagina/pie-pagina.componen
 import { ServiciosCardsComponent } from './Componentes/servicios-cards/servicios-cards.component';
 import { RedesSocialesComponent } from './Componentes/redes-sociales/redes-sociales.component';
 import { ValoresComponent } from './Componentes/valores/valores.component';
+import { ProyectosComponent } from './Componentes/proyectos/proyectos.component';
+import { NoticiasComponent } from './Componentes/noticias/noticias.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { ValoresComponent } from './Componentes/valores/valores.component';
     ServiciosCardsComponent,
     RedesSocialesComponent,
     ValoresComponent,
+    ProyectosComponent,
+    NoticiasComponent,
     
   ],
   imports: [
@@ -33,7 +37,9 @@ import { ValoresComponent } from './Componentes/valores/valores.component';
     RouterModule.forRoot([
       {path: "", component: InicioComponent},
       {path: "inicio",component:InicioComponent},
-      {path: "contacto",component:ContactoComponent}
+      {path: "contacto",component:ContactoComponent},
+      {path: "servicios", component:ProyectosComponent},
+      {path: "noticias", component:NoticiasComponent}
     ])
   ],
   providers: [],
