@@ -1,0 +1,10 @@
+.LogoPersonal{
+    display: block;
+    width: 7rem;
+    height: 2rem;
+}
+.barra{
+    z-index: 9;
+    position: fixed;
+    width: 100%;
+}

@@ -1,0 +1,40 @@
+/* ANCHOR : FUENTE DE TITULOS */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+/* ANCHOR : FUENTE DE CONTENIDO*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+/* ANCHOR : ICONOS DE BOOTSTRAP */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+/* :root{
+    --ColorFace: rgb(44, 102, 226);
+} */
+.color_fuente_vinculo{
+    color: white;
+    text-decoration: none;
+}
+.titulo{
+    font-family: 'Oswald', sans-serif;
+}
+.textoContenido{
+    font-family: 'Noto Serif', serif;
+}
+.linea_separadora{
+    size: 2px;
+    color: white;
+}
+.imagen_logo{
+    display: block;
+    width: 75%;
+    
+}
+.fondo_contacto{
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    background-image: linear-gradient(to top, #101925 0%, #133e5f73 100%);
+}
+@media (max-width:768px) {
+    .imagen_logo{
+        display: block;
+        width: 100% ;
+        margin-top: 2rem;
+    }
+}

@@ -1,0 +1,10 @@
+.tamaño_formulario{
+    display: block;
+    width: 90%;
+    height: auto;
+}
+@media (min-width: 768px) {
+    .tamaño_formulario{
+        width: 60%;
+    }
+}
